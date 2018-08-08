@@ -1,4 +1,4 @@
-/* Visit http://www.menucool.com/responsive-slider for instructions */
+
 
 #ninja-slider {
     width:100%;
@@ -122,8 +122,7 @@
 }
 
 
-/* ---------Arrow buttons ------- */
-/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */
+
 #ninja-slider-pause-play { display:none;}
 
 #ninja-slider-prev, #ninja-slider-next
@@ -159,13 +158,11 @@
 
 
 #ninja-slider-prev {
-    left: -42px; /*set it with a positive value if .slider-inner does not have max-width setting.*/
-}
+    left: -42px;
 #ninja-slider-next {
     right: -42px;
 }
 
-/* arrows */
 #ninja-slider-prev::before, #ninja-slider-next::before {
     position: absolute;
     top: 17px;
@@ -193,15 +190,14 @@
 }
 
 
-/*pagination num within the arrow buttons*/
+
 #ninja-slider-prev:hover, #ninja-slider-next:hover {width:80px;background-color:rgba(0,0,0,0.5);}
 #ninja-slider-prev div {margin-right:8px;white-space:nowrap;opacity:0;float:right;}
 #ninja-slider-next div {margin-left:8px;white-space:nowrap;opacity:0;float:left;}
 #ninja-slider-prev:hover div, #ninja-slider-next:hover div {opacity:1;}
 
 
-/*------ pager(nav bullets) ------*/
-/* The pager id should be: slider id + "-pager" */
+
 #ninja-slider-pager { display:none;}
 
 #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pause-play
@@ -212,7 +208,7 @@
 }
 
 
-/*Responsive settings*/
+
 
 @media only screen and (max-width:1050px){
 
@@ -236,39 +232,31 @@
         font-size:20px;
     }
 }
-.gallery img{
-            width:179px;
-            cursor:pointer;
-        }
-#ninja-slider .caption {
-            position:absolute;
-            top:100%;
-        }
 #body {font: normal 0.9em Arial;margin:0;background:#f5f5f5;}
-                a {color:#1155CC;}
-                ul li {padding: 10px 0;}
-                header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
-                header a {
-                    font-family: sans-serif;
-                    font-size: 24px;
-                    line-height: 24px;
-                    padding: 8px 13px 7px;
-                    color: #4d5256;
-                    text-decoration:none;
-                    transition: color 0.7s;
-                }
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #4d5256;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
 #header a.active {
-                            font-weight:bold;
-                            width: 24px;
-                            height: 24px;
-                            padding: 4px;
-                            text-align: center;
-                            display:inline-block;
-                            border-radius: 50%;
-                            background: #4d5256;
-                            color: #191919;
-                        }
+                    font-weight:bold;
+                    width: 24px;
+                    height: 24px;
+                    padding: 4px;
+                    text-align: center;
+                    display:inline-block;
+                    border-radius: 50%;
+                    background: #4d5256;
+                    color: #191919;
+                }
 #gallery img{
-                            width:179px;
-                            cursor:pointer;
-                        }
+                    width:179px;
+                    cursor:pointer;
+                }
